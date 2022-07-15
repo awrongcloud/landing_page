@@ -1,30 +1,90 @@
-ul{
+.container ul{
     list-style-type: none;
+}
+
+.container a{
+    text-decoration: none;
+    color: white;
 }
 
 .container{
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
 }
 
 .header-logo{
     display: flex;
     align-items: center;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 20px;
 }
 
 .header-list{
     display: flex;
     gap: 20px;
+    font-family: sans-serif;
+    color: #e5e7eb;
+    padding: 20px;
+    margin-right: 50px;
 }
 
+.header h1{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8
+}
+
+.header p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
 
 .header img{
     max-width: 400px;
+    margin-right: 50px;
 }
 
+/* Header website is aweomse section*/
 .header-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px;
+    background-color: #1F2937;
+}
+
+/* Image section*/
+.img-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.img-box{
+    max-width: 100px;
+}
+
+.title-info{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+}
+
+.text{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*Footer section*/
+.footer{
+    background-color: #1F2937;
+    color: white;
 }
