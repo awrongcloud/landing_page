@@ -1,9 +1,13 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0px;
    }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
 .container ul{
     list-style-type: none;
 }
@@ -40,21 +44,20 @@
 }
 
 /* Header website is awesome section*/
-
-
-
 .header-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px;
     background-color: #1F2937;
+    gap: 500px;
 }
 
 .header-text{
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
+    justify-content: center;
+    padding-left: 30px;
    
 }
 
@@ -74,10 +77,14 @@
     margin-right: 50px;
 }
 
-.signup-button{
-  background: royalblue;
-  border: 1px solid royalblue;
-  color: white;
+button{
+    background: royalblue;
+    border: 1px solid royalblue;
+    border-radius: 25px;
+    color: white;
+    height: auto;
+    width: 90px;
+    margin-top: 10px;
 }
 
 /* Image section*/
@@ -113,6 +120,7 @@
     font-size: 36px;
     color: #1F2937;
     font-weight: bold;
+    padding-top: 20px;
 }
 
 /* quote css*/
@@ -136,8 +144,31 @@
 
 
 /* call to action section*/
+.box-container{
+    display: flex;
+    justify-content: center;
+}
 
+.action-container{
+    display: flex;
+    justify-content: center;
+    background-color: dodgerblue;
+    margin: 70px;
+    padding: 50px;
+    width: 800px;
+    gap: 150px;
+    color: white;
+    font-size: 20px;
+}
 
+.action-signtext{
+    color:#e5e7eb;
+    font-size: 15px;
+}
+
+.signup-button{
+    border: white;
+}
 
 
 
